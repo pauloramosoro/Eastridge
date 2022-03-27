@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="col-md-4 offset-md-4">
+    <form action="/update/{{invoice.0}}" method="POST">
+
+        <div class="form-group">
+            <input type="text" name="date" placeholder="Date" value="{{invoice.1}}" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" name="units" placeholder="Units" value="{{invoice.2}}" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" name="description" placeholder="Description" value="{{invoice.3}}" class="form-control">
+        </div>
+        <div class="form-group">
+            <input type="text" name="amount" placeholder="Amount" value="{{invoice.4}}" class="form-control">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary w-100">
+                Save
+            </button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
