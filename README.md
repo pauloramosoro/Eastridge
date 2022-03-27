@@ -8,10 +8,13 @@ Python 3 Installed
 Flask library (pip install flask)
 Flask-mysqldb (pip install flask-mysqldb)
 MySql Database set with the following parameters:
-**- app.config['MYSQL_HOST'] = 'localhost'**
-**- app.config['MYSQL_USER'] = 'root'**
-**- app.config['MYSQL_PASSWORD'] = 'password'**
-**- app.config['MYSQL_DB'] = 'flask_invoice'**
+**app.config['MYSQL_HOST'] = 'localhost'**
+\
+**app.config['MYSQL_USER'] = 'root'**
+\
+**app.config['MYSQL_PASSWORD'] = 'password'**
+\
+**app.config['MYSQL_DB'] = 'flask_invoice'**
 
 ## Instructions to run the python app in you computer.
 
